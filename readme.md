@@ -7,6 +7,7 @@ Sample PWA I built using this cheatsheet [TicTacToe PWA](https://www.kelvinkamau
  * Create a manifest.json in the root folder of your website
  * Add the code snippet below in the file
  * Replace the comments with correct URLs of your web favicon
+ * Replace the short_name & name values below with the names of your web application
  
  ```json
 {
