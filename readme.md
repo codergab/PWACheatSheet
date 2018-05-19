@@ -100,8 +100,8 @@ self.addEventListener('fetch', function(event) {
             return response || fetchPromise;
         });
     }));
-}); ```
-
+});
+```
 ## Lastly : Step Three
 * Add the code snippet below in the header section your index.html file 
 
@@ -129,4 +129,5 @@ self.addEventListener('fetch', function(event) {
             }
         );
     }
-</script>```
+</script>
+```
