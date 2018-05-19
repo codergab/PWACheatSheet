@@ -1,5 +1,6 @@
 # Ultimate Progressive Web App CheatSheet
-Sample PWA I built using this cheatsheet [TicTacToe PWA](Ultimate Progressive Web App CheatSheet)
+
+Sample PWA I built using this cheatsheet [TicTacToe PWA](https://www.kelvinkamau.app/AunderwinceTicTacToe/)
 
 ## Step One
 
