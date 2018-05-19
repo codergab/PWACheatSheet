@@ -4,7 +4,7 @@
 
  * Create a manifest.json in the root folder of your website
  * Add the code snippet below in the file
- * Replace it with the with correct URLs of your web favicon
+ * Replace the comments with correct URLs of your web favicon
  
  ```json
 {
