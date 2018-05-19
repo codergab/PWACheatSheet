@@ -64,7 +64,7 @@ Sample PWA I built using this cheatsheet [TicTacToe PWA](https://www.kelvinkamau
 ## Step Two
 * Create a new file in the root folder and name it sw.js
 * Copy & Paste the code snippet in the file
-* Remember to replace the source files with your own paths
+* Remember to replace the source files with your own paths in the commented section
 
 ```javascript
 self.addEventListener('fetch', function(event) {
@@ -97,8 +97,6 @@ self.addEventListener('fetch', function(event) {
                 );
 
             });
-
-            // respond from the cache, or the network
             return response || fetchPromise;
         });
     }));
