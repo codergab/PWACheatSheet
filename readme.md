@@ -1,6 +1,6 @@
 # Ultimate Progressive Web App CheatSheet
 
-Sample PWA I built using this cheatsheet [TicTacToe PWA](https://www.kelvinkamau.app/AunderwinceTicTacToe/)
+Sample PWA I built using this cheatsheet [BLOG](https://www.kelvinkamau.app/blog/)
 
 ## Step One
 
@@ -119,8 +119,8 @@ self.addEventListener('fetch', function(event) {
 * Add the code snippet below just before you close the </body> tag in your index.html file
 
 ```javascript
-<script>
-
+...
+  <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
                 navigator.serviceWorker.register('/sw.js')
@@ -130,5 +130,6 @@ self.addEventListener('fetch', function(event) {
             }
         );
     }
-</script>
+  </script>
+</body
 ```
